@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title> This is React!</title>
+
+<script src="https://unpkg.com/react@15.3.2/dist/react.js">  </script>
+<script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+</head>
+
+<body>
+    test
+<div id="container"></div>
+testTest
+<div id="xyz"></div>
+<div id="abc"></div>
+
+<script type="text/babel">
+    
+var HW=React.createClass({
+    render: function(){
+        return (
+            <p>Hello , React Components!</p>
+        );
+    }
+}
+);
+
+ReactDOM.render(
+    <HW/>,
+    document.querySelector("#container")
+);
+
+
+</script>
+
+</body>
+
+</html>
